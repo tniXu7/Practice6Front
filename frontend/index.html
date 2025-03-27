@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="registerForm">
+            <h2>Register</h2>
+            <input type="text" id="registerUsername" placeholder="Username">
+            <input type="password" id="registerPassword" placeholder="Password">
+            <button onclick="register()">Register</button>
+            <p id="registerMessage"></p>
+        </div>
+        
+        <div id="loginForm">
+            <div id="authForms">
+                <h2>Login</h2>
+                <input type="text" id="loginUsername" placeholder="Username">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <button onclick="login()">login</button>
+            </div>
+            <button onclick="logout()" style="display: none;">Logout</button>
+        
+            
+            <p id="loginMessage"></p>
+            <h2>Protected Data</h2>
+            <button onclick="getProtectedData()">Get Data</button>
+            <p id="protectedMessage"></p>
+            <p id="protectedData"></p>
+
+            
+            
+            
+            
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
