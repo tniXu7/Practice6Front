@@ -14,10 +14,10 @@
 
 1.  **Клонируйте репозиторий:**
 
-    ```bash
+```bash
     git clone <your-repository-url>
     cd jwt-auth-app
-    ```
+```
 
 2.  **Установите зависимости backend:**
 
